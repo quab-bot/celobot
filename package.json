@@ -1,0 +1,15 @@
+{
+  "name": "celoarcade-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start":  "node bot.js",
+    "once":   "node bot.js once",
+    "stats":  "node bot.js stats",
+    "fund":   "node bot.js fund"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^6.7.0"
+  }
+}
